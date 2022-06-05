@@ -1,4 +1,7 @@
 Something I have written:
+- A server of a booking app -> https://github.com/honglu2875/Bookit-dbManager
+  - A demonstration by combining with a simple (and buggy) frontend using docker-compose -> https://github.com/honglu2875/Bookit-proof-of-concept
+  - Live demonstration: https://meet.honglu.fan:5000
 - A server allowing Tradingview users to actually execute trades -> https://github.com/Dr-H2/Tradingview-Webhook-Bot
 - Some codes to assist a research on stability of CNNs -> https://github.com/honglu2875/weirdonetworks
 - Some codes to assist a hobby experiment on reinforcement learning -> https://github.com/honglu2875/SkynetTheMarketCrusher
