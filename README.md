@@ -1,4 +1,5 @@
 Something I have written:
+- (most recent) Research project on  reinforcement learning of Hironaka's polyhedra game -> https://github.com/honglu2875/hironaka
 - A server of a booking app -> https://github.com/honglu2875/Bookit-dbManager
   - A demonstration by combining with a simple (and buggy) frontend using docker-compose -> https://github.com/honglu2875/Bookit-proof-of-concept
   - Live demonstration: https://meet.honglu.fan:5000
