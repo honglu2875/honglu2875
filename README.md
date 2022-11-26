@@ -1,11 +1,18 @@
 Some things I have written or participated in:
 
-## Evolution through Large Models 
+## OpenELM (Evolution through Large Models)
 https://github.com/CarperAI/OpenELM
 
 This is a work in progress with Carper AI to replicate the paper [Evolution through Large Models](https://arxiv.org/abs/2206.08896) in open-source domain.
 
 ELM makes use of LLM's capacity for code generations and mutations to perform evolution methods such as MAP-Elites. In turn, it uses the generated data and RL finetuning to further align LLM with the given task. We have implemented the evolution and LM pipelines except for the RL finetuning components. We use models finetuned on Github commits, and we will also gradually release them.
+
+## Architext
+https://github.com/CarperAI/ArchitextRL
+
+Helping with the integration of Architext with ELM.
+
+Architext is a Carper AI project that makes use of Language models to generate presentations of architecture designs. 
 
 
 ## Reinforcement learning of Hironaka's polyhedra game 
