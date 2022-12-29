@@ -25,5 +25,7 @@ An old but overlooked angle about this is that: Resolving singularities can be a
 
 ## some side projects
 https://github.com/honglu2875/fmlang_env
-https://github.com/honglu2875/Bookit-proof-of-concept.git
-https://github.com/honglu2875/weirdonetworks.git (really old)
+
+https://github.com/honglu2875/Bookit-proof-of-concept.git (was learning Kotlin with a hands-on project)
+
+https://github.com/honglu2875/weirdonetworks.git (really old stuff with weird ideas. But the rotational stability of vision model isn't a wild idea and recently get formalized by another team whose name I forgot)
