@@ -22,3 +22,8 @@ Our commonsense favors spaces that can be locally parametrized as products of co
 
 An old but overlooked angle about this is that: Resolving singularities can be a Markov Decision Process. With the rise of modern deep reinforcement learning, we present the repo that implements multiple deep RL methods (gym+stablebaseline3; DQN with PyTorch DDP + MAP-Elites; AlphaZero using JAX) applied on resolution of singularities.
 
+
+## some side projects
+https://github.com/honglu2875/fmlang_env
+https://github.com/honglu2875/Bookit-proof-of-concept.git
+https://github.com/honglu2875/weirdonetworks.git (really old)
