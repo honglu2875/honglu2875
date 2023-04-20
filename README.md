@@ -1,5 +1,10 @@
 Some things I have written or participated in:
 
+## LLM foundation model at Multi Tech Inc.
+(models and codes are not available for now)
+
+Trained multiple 3B-13B foundation model using various datasets totalling 1.5 trillion tokens. Focused on the ability of code synthesis and financial document generation/retrieval. Long context length (8192). FSDP with 640 A-100.
+
 ## OpenELM (Evolution through Large Models)
 https://github.com/CarperAI/OpenELM
 
