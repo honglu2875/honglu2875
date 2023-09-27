@@ -1,5 +1,8 @@
 Some things I have written or participated in:
 
+## an IR that generates pytorch and JAX codes (WIP)
+Tired of jumping back and forth between PyTorch and JAX? Tired of inserting hacky hooks or monkey-patches in the middle of a module for interpretability tasks? I'm making a shot here by starting with an Intermediate Representation as a graph and performs codegen on PyTorch and JAX. Still a lot of things to sort out but a basic version is working...
+
 ## LLM foundation model at Multi Tech Inc.
 (models and codes are not available for now)
 
@@ -32,5 +35,3 @@ An old but overlooked angle about this is that: Resolving singularities can be a
 https://github.com/honglu2875/fmlang_env
 
 https://github.com/honglu2875/Bookit-proof-of-concept.git (was learning Kotlin with a hands-on project)
-
-https://github.com/honglu2875/weirdonetworks.git (really old stuff with weird ideas. But the rotational stability of vision model isn't a wild idea and recently got formalized by another team whose name I forgot)
