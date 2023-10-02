@@ -2,6 +2,7 @@ Some things I have written or participated in:
 
 ## YaRN, a context length extension of RoPE
 Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). It is quite amazing. I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. It did great! Bowen tried Sherlock Holmes. It wasn't perfect but it was definitely working!
+
 Our research (i.e, hacky) implementation: [https://github.com/jquesnelle/yarn](https://github.com/jquesnelle/yarn).
 
 ## an IR that generates pytorch and JAX codes (WIP)
@@ -36,6 +37,6 @@ An old but overlooked angle about this is that: Resolving singularities can be a
 
 
 ## some side projects
-https://github.com/honglu2875/fmlang_env
+https://github.com/honglu2875/fmlang_env (planned to do "RL with interpreter feedback")
 
 https://github.com/honglu2875/Bookit-proof-of-concept.git (was learning Kotlin with a hands-on project)
