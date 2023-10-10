@@ -1,5 +1,9 @@
 Some things I have written or participated in:
 
+## Mistral model in JAX
+https://github.com/honglu2875/mistral_jax
+You know what it is if you are familiar with OSS LLM ;)
+
 ## YaRN, a context length extension of RoPE
 Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). It is quite amazing. I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. It did great! Bowen tried Sherlock Holmes. It wasn't perfect but it was definitely working!
 
