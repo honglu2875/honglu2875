@@ -1,5 +1,9 @@
 Some things I have written or participated in:
 
+## Thing
+https://github.com/honglu2875/thing
+Catch your tensors quietly in your running codes and send them to your python console for inspection.
+
 ## Mistral model in JAX
 https://github.com/honglu2875/mistral_jax
 You know what it is if you are familiar with OSS LLM ;)
