@@ -1,5 +1,9 @@
 Some things I have written or participated in:
 
+## Aria
+https://github.com/EleutherAI/aria
+Wanna make some music?
+
 ## Thing
 https://github.com/honglu2875/thing
 Catch your tensors quietly in your running codes and send them to your python console for inspection.
