@@ -1,4 +1,8 @@
-Some things I have written or participated in:
+I currently work with [poolside](https://poolside.ai) on a variety of stuff. In the free time, I also do some hobby projects.
+
+============
+
+Some things I have written or participated in the past:
 
 ## Aria
 https://github.com/EleutherAI/aria
