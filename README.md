@@ -2,24 +2,27 @@ I currently work with [poolside](https://poolside.ai) on a variety of stuff. In 
 
 ============
 
-Some things I have written or participated in the past:
+A lot of my work is in different private repos.
+
+But here are some toy projects that I am able to show:
 
 ## Aria
-https://github.com/EleutherAI/aria
-Wanna make some music?
+[https://github.com/EleutherAI/aria](https://github.com/EleutherAI/aria)
+Wanna make some music? LLM for midi generation.
+We have a much better model now but some older samples can be listened to here: [https://honglu.fan/files/](https://honglu.fan/files/)
 
-## Thing
-https://github.com/honglu2875/thing
-Catch your tensors quietly in your running codes and send them to your python console for inspection.
-
-## Mistral model in JAX
-https://github.com/honglu2875/mistral_jax
-You know what it is if you are familiar with OSS LLM ;)
+## some code for TPU inference
+[https://github.com/honglu2875/mistral_jax](https://github.com/honglu2875/jaxml)
+When you are only given a few TPUs and you don't like the current TPU inferencing library ;)
 
 ## YaRN, a context length extension of RoPE
 Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). It is quite amazing. I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. It did great! Bowen tried Sherlock Holmes. It wasn't perfect but it was definitely working!
 
 Our research (i.e, hacky) implementation: [https://github.com/jquesnelle/yarn](https://github.com/jquesnelle/yarn).
+
+## Thing
+https://github.com/honglu2875/thing
+Catch your tensors quietly in your running codes and send them to your python console for inspection.
 
 ## an IR that generates pytorch and JAX codes (WIP)
 Tired of jumping back and forth between PyTorch and JAX? I'm making an amateur shot here by starting with an Intermediate Representation as a graph and performs codegen on PyTorch and JAX. Still a lot of things to sort out but a basic version is starting to work... **Still not usable** (will remove it once I'm happy by myself)
