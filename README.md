@@ -8,12 +8,12 @@ But here are some toy projects that I am able to show:
 
 ## Aria
 [https://github.com/EleutherAI/aria](https://github.com/EleutherAI/aria)
-Wanna make some music? LLM for midi generation.
-We have a much better model now but some older samples can be listened to here: [https://honglu.fan/files/](https://honglu.fan/files/)
+Wanna make some music?
+We have a much better music generation model now but some older samples can be listened to here: [https://honglu.fan/files/](https://honglu.fan/files/)
 
 ## some code for TPU inference
 [https://github.com/honglu2875/mistral_jax](https://github.com/honglu2875/jaxml)
-When you are only given a few TPUs and you don't like the current TPU inferencing library ;)
+This is something a person would do when you are only given a few TPUs and you don't like the current TPU inferencing library ;)
 
 ## YaRN, a context length extension of RoPE
 Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). It is quite amazing. I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. It did great! Bowen tried Sherlock Holmes. It wasn't perfect but it was definitely working!
