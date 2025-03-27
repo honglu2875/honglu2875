@@ -2,9 +2,7 @@ I currently work with [poolside](https://poolside.ai) on a variety of stuff. In 
 
 ============
 
-A lot of my work is in various private repos that I am unable to share.
-
-But here are some toy projects that I am able to show:
+For what it is worth, here are some toy projects and open-source research projects that I am able to share:
 
 ## Aria
 [https://github.com/EleutherAI/aria](https://github.com/EleutherAI/aria)
@@ -13,39 +11,14 @@ We have a much better music generation model now but some older samples can be l
 
 ## some code for TPU inference
 [https://github.com/honglu2875/mistral_jax](https://github.com/honglu2875/jaxml)
-This is something a person would do when you are only given a few TPUs and you don't like the current TPU inferencing library ;)
+This is something a person would attempt when you are only given a few TPUs and you don't like the current TPU inferencing library ;)
 
 ## YaRN, a context length extension of RoPE
-Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). It is quite amazing. I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. It did great! Bowen tried Sherlock Holmes. It wasn't perfect but it was definitely working!
-
-Our research (i.e, hacky) implementation: [https://github.com/jquesnelle/yarn](https://github.com/jquesnelle/yarn).
+Together with Bowen, Jeff and Enrico, we posted a [preprint](https://arxiv.org/abs/2309.00071) regarding how to extend the context window of models using RoPE embedding (such as Llama families). Enrico trained a few amazing models such as this [Llama-2 128k-context](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-128k). I tried to feed it with the whole Pride and Prejudice and did manual Q&A of the novel. Bowen tried Sherlock Holmes. It wasn't perfect but it did great on those novels! 
 
 ## Thing
 https://github.com/honglu2875/thing
-Catch your tensors quietly in your running codes and send them to your python console for inspection.
-
-## an IR that generates pytorch and JAX codes (WIP)
-Tired of jumping back and forth between PyTorch and JAX? I'm making an amateur shot here by starting with an Intermediate Representation as a graph and performs codegen on PyTorch and JAX. Still a lot of things to sort out but a basic version is starting to work... **Still not usable** (will remove it once I'm happy by myself)
-
-## LLM foundation model at Multi Tech Inc.
-(models and codes are not available for now)
-
-Trained multiple 3B-13B foundation model using various datasets totalling 1.5 trillion tokens. Focused on the ability of code synthesis and financial document generation/retrieval. Long context length (8192). FSDP with 640 A-100.
-
-## OpenELM (Evolution through Large Models)
-https://github.com/CarperAI/OpenELM
-
-This is a work in progress with Carper AI to replicate the paper [Evolution through Large Models](https://arxiv.org/abs/2206.08896) in open-source domain.
-
-ELM makes use of LLM's capacity for code generations and mutations to perform evolution methods such as MAP-Elites. In turn, it uses the generated data and RL finetuning to further align LLM with the given task. We have implemented the evolution and LM pipelines except for the RL finetuning components. We use models finetuned on Github commits, and we will also gradually release them.
-
-## Architext
-https://github.com/CarperAI/ArchitextRL
-
-Helping with the integration of Architext with ELM.
-
-Architext is a Carper AI project that makes use of Language models to generate presentations of architecture designs. 
-
+An attempt to build a tool that catches your tensors quietly in your running codes and send them to another python console for inspection.
 
 ## Reinforcement learning of Hironaka's polyhedra game 
 https://github.com/honglu2875/hironaka
