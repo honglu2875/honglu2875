@@ -1,4 +1,4 @@
-I currently work with [poolside](https://poolside.ai) on a variety of stuff. In the free time, I also do some hobby projects.
+I used to work with [poolside](https://poolside.ai) on a variety of stuff. In the free time, I also do some hobby projects.
 
 ============
 
