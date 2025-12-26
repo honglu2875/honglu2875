@@ -10,7 +10,7 @@ Wanna make some music?
 We have a much better music generation model now but some older samples can be listened to here: [https://honglu.fan/files/](https://honglu.fan/files/)
 
 ## some code for TPU inference
-[https://github.com/honglu2875/mistral_jax](https://github.com/honglu2875/jaxml)
+[https://github.com/honglu2875/jaxml](https://github.com/honglu2875/jaxml)
 This is something a person would attempt when you are only given a few TPUs and you don't like the current TPU inferencing library ;)
 
 ## YaRN, a context length extension of RoPE
